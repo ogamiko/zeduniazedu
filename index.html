@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zedunia</title>
+    <link rel="stylesheet" href="zedunia.css">
+    <script defer src="zedunia.js"></script>
+</head>
+<body>
+    <h1 class="title">Zedunia</h1>
+
+    <div class="question-container" id="question1">
+        <div class="question-box">
+            <p>მე თუ პატენტი ნუცა?</p>
+            <button class="choice" onclick="selectOption('nuca')">ნუცა</button>
+            <button class="choice" id="ogamiko1" onclick="moveButton(this)">ოგამიკო</button>
+        </div>
+    </div>
+
+    <div class="question-container" id="question2" style="display: none;">
+        <div class="question-box">
+            <p>ბოზები თუ მე?</p>
+            <button class="choice" onclick="selectOption('bozebi')">ბოზები</button>
+            <button class="choice" id="ogamiko2" onclick="moveButton(this)">ოგამიკო</button>
+        </div>
+    </div>
+
+    <!-- ობობები -->
+</body>
+</html>
+
